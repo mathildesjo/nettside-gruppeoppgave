@@ -1,0 +1,16 @@
+body{
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+box{
+    background-color: #0071ff;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 1em;
+}
